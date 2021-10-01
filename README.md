@@ -1,7 +1,23 @@
 # Covid_Map
 
-## pycountry, plotly, pandas, kivy
+## The program was created to learn how to use data frames, how to make choropleth in plotly and how to write GUI in Kivy. Kv file is an introduction to CSS.
 
-### there is an error in dataframe: after 14/12/20 US Recovery data disappears
+
+## plotly, pandas, kivy, pycountry
+
+### The program starts with simple Python GUI made in Kivy library with .kv file which is stuff like CSS.
+
 
 ![kivy_gui_image](kivy_gui_image.png)
+
+### After choosing which data you need, a choropleth map will be generated. I may take some time.
+
+### At the bottom of the map you can see a timeline showing the increase in cases from 01/22/20 until today.
+
+### Choosing country will show: name of the country, the date, the country code and the number of cases.
+
+![map_image](map_image.png)
+
+
+
+### there are some errors in dataframe: after 14/12/20 US Recovery data disappears and the rest of it around August 2021.
