@@ -22,15 +22,17 @@
         Button:
             id: button1
             text: 'CONFIRMED'
-            on_press: root.request('Confirmed')
+            on_press: button1.disabled = True
+            on_release: root.request('Confirmed')
 
         Button:
-            id: button1
+            id: button2
             text: 'DEATHS'
-            on_press: root.request('Deaths')
+            on_press: button2.disabled = True
+            on_release: root.request('Deaths') 
 
         Button:
-            id: button1
+            id: button3
             text: 'RECOVERED'
-            on_press: root.request('Recovered')
-    
+            on_press: button3.disabled = True 
+            on_release: root.request('Recovered')
