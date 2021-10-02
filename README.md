@@ -3,7 +3,7 @@
 ## The program was created to learn how to use data frames, how to make choropleth in `plotly` and how to write GUI in `kivy`. Kv file is an introduction to CSS. GUI is written with "request \ response" method where backend and frontend are in separate files.
 
 
-## `plotly`, `pandas`, `kivy`, `pycountry`, `unittest`
+## `plotly`, `pandas`, `kivy`, `pycountry`
 
 ### The program starts with simple Python GUI made in Kivy library with .kv file which is stuff like CSS.
 
