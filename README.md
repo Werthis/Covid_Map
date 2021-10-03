@@ -16,7 +16,7 @@
 
 ### Choosing country will show: name of the country, the date, the country code and the number of cases.
 
-![map_image](map_image.png)
+![](map.gif)
 
 
 
